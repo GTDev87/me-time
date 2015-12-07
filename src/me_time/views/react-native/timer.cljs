@@ -18,7 +18,7 @@
       {:style {:flexDirection "row"}}
       [text 
           {}; :style {:fontSize 30 :fontWeight "100" :marginBottom 20 :textAlign "center"}
-          (str "timer = " (quot (:duration-milliseconds timer) 1000))]
+          (str " " (quot (:duration-milliseconds timer) 1000))]
       [view
         [touchable-native-feedback 
           {:on-press click-functions

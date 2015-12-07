@@ -19,14 +19,14 @@ me_time.android.core.touchable_highlight = reagent.core.adapt_react_class.call(n
 me_time.android.core.logo_img = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"uri","uri",-774711847),"http://10.0.2.2:8081/./images/cljs.png"], null);
 me_time.android.core.update_list_atom = (function me_time$android$core$update_list_atom(var_args){
 var args__17891__auto__ = [];
-var len__17884__auto___24766 = arguments.length;
-var i__17885__auto___24767 = (0);
+var len__17884__auto___29893 = arguments.length;
+var i__17885__auto___29894 = (0);
 while(true){
-if((i__17885__auto___24767 < len__17884__auto___24766)){
-args__17891__auto__.push((arguments[i__17885__auto___24767]));
+if((i__17885__auto___29894 < len__17884__auto___29893)){
+args__17891__auto__.push((arguments[i__17885__auto___29894]));
 
-var G__24768 = (i__17885__auto___24767 + (1));
-i__17885__auto___24767 = G__24768;
+var G__29895 = (i__17885__auto___29894 + (1));
+i__17885__auto___29894 = G__29895;
 continue;
 } else {
 }
@@ -44,12 +44,12 @@ return re_frame.core.dispatch_sync.call(null,new cljs.core.PersistentVector(null
 
 me_time.android.core.update_list_atom.cljs$lang$maxFixedArity = (2);
 
-me_time.android.core.update_list_atom.cljs$lang$applyTo = (function (seq24763){
-var G__24764 = cljs.core.first.call(null,seq24763);
-var seq24763__$1 = cljs.core.next.call(null,seq24763);
-var G__24765 = cljs.core.first.call(null,seq24763__$1);
-var seq24763__$2 = cljs.core.next.call(null,seq24763__$1);
-return me_time.android.core.update_list_atom.cljs$core$IFn$_invoke$arity$variadic(G__24764,G__24765,seq24763__$2);
+me_time.android.core.update_list_atom.cljs$lang$applyTo = (function (seq29890){
+var G__29891 = cljs.core.first.call(null,seq29890);
+var seq29890__$1 = cljs.core.next.call(null,seq29890);
+var G__29892 = cljs.core.first.call(null,seq29890__$1);
+var seq29890__$2 = cljs.core.next.call(null,seq29890__$1);
+return me_time.android.core.update_list_atom.cljs$core$IFn$_invoke$arity$variadic(G__29891,G__29892,seq29890__$2);
 });
 if(typeof me_time.android.core.time_updater !== 'undefined'){
 } else {

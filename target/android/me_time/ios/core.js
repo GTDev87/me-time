@@ -19,14 +19,14 @@ me_time.ios.core.touchable_highlight = reagent.core.adapt_react_class.call(null,
 me_time.ios.core.logo_img = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"uri","uri",-774711847),"http://10.0.2.2:8081/./images/cljs.png"], null);
 me_time.ios.core.update_list_atom = (function me_time$ios$core$update_list_atom(var_args){
 var args__17891__auto__ = [];
-var len__17884__auto___18739 = arguments.length;
-var i__17885__auto___18740 = (0);
+var len__17884__auto___29883 = arguments.length;
+var i__17885__auto___29884 = (0);
 while(true){
-if((i__17885__auto___18740 < len__17884__auto___18739)){
-args__17891__auto__.push((arguments[i__17885__auto___18740]));
+if((i__17885__auto___29884 < len__17884__auto___29883)){
+args__17891__auto__.push((arguments[i__17885__auto___29884]));
 
-var G__18741 = (i__17885__auto___18740 + (1));
-i__17885__auto___18740 = G__18741;
+var G__29885 = (i__17885__auto___29884 + (1));
+i__17885__auto___29884 = G__29885;
 continue;
 } else {
 }
@@ -44,12 +44,12 @@ return re_frame.core.dispatch_sync.call(null,new cljs.core.PersistentVector(null
 
 me_time.ios.core.update_list_atom.cljs$lang$maxFixedArity = (2);
 
-me_time.ios.core.update_list_atom.cljs$lang$applyTo = (function (seq18736){
-var G__18737 = cljs.core.first.call(null,seq18736);
-var seq18736__$1 = cljs.core.next.call(null,seq18736);
-var G__18738 = cljs.core.first.call(null,seq18736__$1);
-var seq18736__$2 = cljs.core.next.call(null,seq18736__$1);
-return me_time.ios.core.update_list_atom.cljs$core$IFn$_invoke$arity$variadic(G__18737,G__18738,seq18736__$2);
+me_time.ios.core.update_list_atom.cljs$lang$applyTo = (function (seq29880){
+var G__29881 = cljs.core.first.call(null,seq29880);
+var seq29880__$1 = cljs.core.next.call(null,seq29880);
+var G__29882 = cljs.core.first.call(null,seq29880__$1);
+var seq29880__$2 = cljs.core.next.call(null,seq29880__$1);
+return me_time.ios.core.update_list_atom.cljs$core$IFn$_invoke$arity$variadic(G__29881,G__29882,seq29880__$2);
 });
 if(typeof me_time.ios.core.time_updater !== 'undefined'){
 } else {
